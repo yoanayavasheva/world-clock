@@ -1,11 +1,69 @@
 body {
-  background: pink;
+  background: rgb(253, 243, 245);
 }
 
 h1 {
   text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 40px;
+}
+
+h2 {
+  margin: 0 0 5px;
+  font-size: 25px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+select {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  border-radius: 8px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+}
+
+.container {
+  max-width: 400px;
+  margin: 60px auto;
+  background-color: rgb(255, 255, 255);
+  padding: 20px 30px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+}
+
+.city {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0;
+  padding: 15px 0;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+}
+
+.city:last-child {
+  border: none;
+}
+
+.date {
+  opacity: 0.6;
+  font-size: 15px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.time {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 32px;
+  font-weight: 800;
+  margin-top: 10px;
+}
+
+.time small {
+  font-size: 20px;
+  vertical-align: middle;
 }
 
 footer {
   text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 15px;
 }
